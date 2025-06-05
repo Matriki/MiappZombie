@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'  // <-- esto es nuevo, para que cargue Tailwind y tus estilos
 
-import App from './App'
+import App from './app'
 import { createClient } from '@supabase/supabase-js'
 import { SupabaseProvider } from './supabaseContext'
 
